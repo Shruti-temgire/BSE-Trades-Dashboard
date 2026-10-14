@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ven/
+.pytest_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases (generated at runtime)
+database/*.db
+database/*.db-wal
+database/*.db-shm
+*.sqlite
+*.sqlite3
+
+# Node / build output
+node_modules/
+frontend/dist/
+*.log
+npm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Screen recordings
+*.mp4
+*.mkv

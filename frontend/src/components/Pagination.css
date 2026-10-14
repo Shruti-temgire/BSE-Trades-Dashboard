@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.pagination__label {
+  padding: 0 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.pagination__label strong { color: var(--text-strong); }
+
+@media (max-width: 560px) {
+  .pagination { justify-content: center; }
+}
